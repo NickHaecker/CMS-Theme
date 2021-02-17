@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { HTMLSerializer } from '../../core/components'
+import { HTMLSerializer } from '../../core/richText'
 export default {
   name: 'RichText',
   props: {
