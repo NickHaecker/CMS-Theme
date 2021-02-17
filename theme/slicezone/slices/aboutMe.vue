@@ -13,10 +13,10 @@
 <script>
 import SliceProps from '../../../core/sliceProps'
 import Components from '../../../core/components'
-import richText from '../richText.vue'
+// import richText from '../richText.vue'
 export default {
   name: 'AboutMe',
-  components: { richText },
+  //   components: { richText },
   mixins: [SliceProps, Components],
 }
 </script>

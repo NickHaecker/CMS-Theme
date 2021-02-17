@@ -1,4 +1,4 @@
-import RichText from '../theme/slicezone/richText.vue'
+import RichText from '../theme/richText.vue'
 export default {
   components: {
     RichText,
