@@ -18,7 +18,7 @@
             icon="mdi-arrow-left"
             :left="true"
             :right="false"
-            route-link="/lebenslauf"
+            route-link="/ueber-mich"
           />
         </div>
         <div class="button-right-wrapper">

@@ -11,6 +11,9 @@
       <template v-if="slice.slice_type === types.slider">
         <slider :key="index" class="carousel homepage-slice" :slice="slice" />
       </template>
+      <template v-if="slice.slice_type === types.lebenslauf">
+        <resume :key="index" class="timeline" :slice="slice" />
+      </template>
     </template>
   </div>
 </template>
@@ -19,11 +22,13 @@
 import { SliceTypes } from '../../core/sliceTypes'
 import AboutMe from './slices/aboutMe.vue'
 import Slider from './slices/slider.vue'
+import Resume from './slices/resume.vue'
 export default {
   name: 'Slicezone',
   components: {
     AboutMe,
     Slider,
+    Resume,
   },
   props: {
     slices: {
